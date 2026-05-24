@@ -370,6 +370,9 @@ a.projeto-link:visited {
     margin-bottom: 1.5rem;
     padding: 0;       
     text-align: center; 
+    color: #ffffff;
+    background-color: #184A97;
+    border-radius: 10px;
 }
 
 .eventos-grid {
