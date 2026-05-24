@@ -202,6 +202,8 @@ footer p {
     color: white;
     opacity: 1;         /* ligeiramente transparente */
     text-align: center;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* sombra para destacar o texto */
+
 }
 
 
