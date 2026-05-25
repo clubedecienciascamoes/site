@@ -48,15 +48,15 @@ header {
 .header-logo-camoes { max-height: 70px; }
 
 header h1 {
-    grid-column: 2;
-    grid-row: 1;
-    text-align: center;
-    margin: 0;
-    font-size: 3rem;
-    white-space: nowrap;
-    position: absolute
-    left: 50%;
-    transform: translate (-50%)
+  grid-column: 2;
+  grid-row: 1;
+  text-align: center;
+  margin: 0;
+  font-size: 3rem;
+  white-space: nowrap;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 header nav {
