@@ -427,3 +427,82 @@ a.projeto-link:visited {
     color: #555;
     line-height: 1.5;
 }
+
+
+
+
+/* ===== RESPONSIVO MOBILE ===== */
+@media (max-width: 768px) {
+
+  /* Header em coluna */
+  header {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    text-align: center;
+  }
+
+  .header-logos {
+    grid-column: 1;
+    grid-row: 1;
+    justify-content: center;
+  }
+
+  header h1 {
+    grid-column: 1;
+    grid-row: 2;
+    position: static;
+    transform: none;
+    font-size: 1.8rem;
+    white-space: normal;
+  }
+
+  header nav {
+    grid-column: 1;
+    grid-row: 3;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  /* Citação mais pequena */
+  .citacao-texto {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .citacao {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* Galeria de 3 colunas → 2 colunas */
+  .projeto-galeria {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Título do projeto hero menor */
+  .projeto-hero-titulo {
+    font-size: 2rem;
+  }
+
+  /* Main com menos padding */
+  main {
+    padding: 15px;
+  }
+}
+
+/* Telemóveis muito pequenos */
+@media (max-width: 480px) {
+  .projeto-galeria {
+    grid-template-columns: 1fr;
+  }
+
+  header h1 {
+    font-size: 1.4rem;
+  }
+
+  .header-logo-big { max-height: 80px; }
+  .header-logo-small { max-height: 40px; }
+  .header-logo-camoes { max-height: 50px; }
+}
