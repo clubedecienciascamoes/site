@@ -194,6 +194,11 @@ footer p {
     display: flex;
     align-items: center;
     justify-content: center;
+    h3 {
+        color: #184A97;
+        font-size: 2.5rem;
+        text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    }
 }
 
 .projeto-hero-titulo {
@@ -505,6 +510,27 @@ a.projeto-link:visited {
   .header-logo-small { max-height: 40px; }
   .header-logo-camoes { max-height: 50px; }
 }
+
+ul {
+    margin-left: 20px;
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+
+projeto-detalhe {
+    background: white;
+    margin: 30px auto;
+    padding: 30px;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    h3 {
+        color: #184A97;
+        font-size: 2.5rem;
+        text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    }
+}
+
 
 
 
