@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://clubedecienciascamoes.github.io/site/sitemap.xml
